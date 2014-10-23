@@ -4,6 +4,7 @@
  * Author: Fathur Rohman
  */
 
+add_theme_support( 'woocommerce' );
 
 /**
  * ================
