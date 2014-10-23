@@ -1,3 +1,4 @@
-/kms361/wp-config.php
-/kms361/wp-content/uploads/*
+/wp-config.php
+/wp-content/uploads/*
+/wc-logs/*
 .DS_Store
