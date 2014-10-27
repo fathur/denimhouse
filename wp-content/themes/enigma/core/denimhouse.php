@@ -17,6 +17,7 @@ add_theme_support( 'woocommerce' );
  * ADD FILTER AREA
  * ================
  */
+add_filter('show_admin_bar', '__return_false');
 
 /**
  * =================

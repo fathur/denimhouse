@@ -35,7 +35,7 @@
 					{ ?>
 					<img src="<?php echo $wl_theme_options['upload_image_logo']; ?>" style="height:<?php if($wl_theme_options['height']!='') { echo $wl_theme_options['height']; }  else { "80"; } ?>px; width:<?php if($wl_theme_options['width']!='') { echo $wl_theme_options['width']; }  else { "200"; } ?>px;" />
 					<?php } else { ?> 
-					Enigma
+					Denim House
 					<?php } ?>
 					</a>
 					<p><?php bloginfo( 'description' ); ?></p>
