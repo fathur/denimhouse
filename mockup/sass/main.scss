@@ -1,0 +1,44 @@
+$black-1: #222222;
+$gray-1: #6A6A6A;
+
+$logo-height: 100px;
+
+@font-face {
+	font-family: 'papyrus';
+	src: url('../fonts/papyrus.ttf');
+}
+
+body {
+	font-family: 'papyrus';
+}
+
+.dh-container {
+	min-height: 500px;
+}
+
+.logo {
+	background-color: $black-1;
+	height: $logo-height;
+	border-bottom: 1px solid $gray-1;
+	color: #FFF;
+
+	img {
+		height: $logo-height - 20px;
+		margin-top: 10px;
+	}
+}
+
+.footer {
+	background-color: $black-1;
+	color: #FFF;
+	padding-top:10px;
+}
+
+.login-navbar {
+	padding: 10px;
+	width: 250px;
+}
+
+.registration {
+	padding-top: 20px;
+}
