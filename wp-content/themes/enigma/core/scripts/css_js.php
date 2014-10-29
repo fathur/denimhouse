@@ -10,6 +10,8 @@ function weblizar_scripts()
 {
 	//wp_enqueue_style('stylsheet', WL_TEMPLATE_DIR_URI . '/style.css');
 	wp_enqueue_style('bootstrap', WL_TEMPLATE_DIR_URI .'/css/bootstrap.css');
+	wp_enqueue_style('denimhouse', WL_TEMPLATE_DIR_URI .'/css/denimhouse.css');
+
 	//wp_enqueue_style('default', WL_TEMPLATE_DIR_URI . '/css/default.css');
 	//wp_enqueue_style('enigma-theme', WL_TEMPLATE_DIR_URI . '/css/enigma-theme.css');
 	//wp_enqueue_style('media-responsive', WL_TEMPLATE_DIR_URI . '/css/media-responsive.css');
@@ -21,23 +23,23 @@ function weblizar_scripts()
 	wp_enqueue_style('OpenSansSemiBold','//fonts.googleapis.com/css?family=Open+Sans:600');
 	wp_enqueue_style('RobotoRegular','//fonts.googleapis.com/css?family=Roboto');
 	wp_enqueue_style('RobotoBold','//fonts.googleapis.com/css?family=Roboto:700');
-	wp_enqueue_style('RalewaySemiBold','//fonts.googleapis.com/css?family=Raleway:600');
+	wp_enqueue_style('RalewaySemiBold','//fonts.googleadenpis.com/css?family=Raleway:600');
 	wp_enqueue_style('Courgette','//fonts.googleapis.com/css?family=Courgette');*/
 
 	// Js
-	wp_enqueue_script('menu', WL_TEMPLATE_DIR_URI .'/js/menu.js', array('jquery'));
-	wp_enqueue_script('bootstrap-min-js', WL_TEMPLATE_DIR_URI .'/js/bootstrap.min.js');
-	wp_enqueue_script('enigma-theme-script', WL_TEMPLATE_DIR_URI .'/js/enigma_theme_script.js');
+	//wp_enqueue_script('menu', WL_TEMPLATE_DIR_URI .'/js/menu.js', array('jquery'));
+	wp_enqueue_script('bootstrap-min-js', WL_TEMPLATE_DIR_URI .'/js/bootstrap.min.js', array('jquery'));
+	//wp_enqueue_script('enigma-theme-script', WL_TEMPLATE_DIR_URI .'/js/enigma_theme_script.js');
 
 	if(is_front_page())
 	{
 		/*Carofredsul Slides*/
-		wp_enqueue_script('jquery.carouFredSel', WL_TEMPLATE_DIR_URI .'/js/carouFredSel-6.2.1/jquery.carouFredSel-6.2.1.js');
-		wp_enqueue_script('carouFredSel-element', WL_TEMPLATE_DIR_URI .'/js/carouFredSel-6.2.1/caroufredsel-element.js');
+		// wp_enqueue_script('jquery.carouFredSel', WL_TEMPLATE_DIR_URI .'/js/carouFredSel-6.2.1/jquery.carouFredSel-6.2.1.js');
+		// wp_enqueue_script('carouFredSel-element', WL_TEMPLATE_DIR_URI .'/js/carouFredSel-6.2.1/caroufredsel-element.js');
 		
-		/*PhotoBox JS*/
-		wp_enqueue_script('photobox-js', WL_TEMPLATE_DIR_URI .'/js/jquery.photobox.js');
-		wp_enqueue_style('photobox', WL_TEMPLATE_DIR_URI . '/css/photobox.css');
+		// /*PhotoBox JS*/
+		// wp_enqueue_script('photobox-js', WL_TEMPLATE_DIR_URI .'/js/jquery.photobox.js');
+		// wp_enqueue_style('photobox', WL_TEMPLATE_DIR_URI . '/css/photobox.css');
 	}
 
 	if ( is_singular() ) wp_enqueue_script( "comment-reply" );
@@ -48,8 +50,8 @@ function weblizar_scripts()
  */
 add_action('wp_footer', 'weblizar_footer_js');
 function weblizar_footer_js() {
-	wp_enqueue_script('enigma-footer-script', WL_TEMPLATE_DIR_URI .'/js/enigma-footer-script.js');
-	wp_enqueue_script('waypoints.min', WL_TEMPLATE_DIR_URI .'/js/waypoints.min.js');
-	wp_enqueue_script('scroll', WL_TEMPLATE_DIR_URI .'/js/scroll.js');
+	// wp_enqueue_script('enigma-footer-script', WL_TEMPLATE_DIR_URI .'/js/enigma-footer-script.js');
+	// wp_enqueue_script('waypoints.min', WL_TEMPLATE_DIR_URI .'/js/waypoints.min.js');
+	// wp_enqueue_script('scroll', WL_TEMPLATE_DIR_URI .'/js/scroll.js');
 }
 ?>

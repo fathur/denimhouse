@@ -1,4 +1,4 @@
-<div class="col-md-4 enigma-sidebar">
+<!-- <div class="col-md-4 enigma-sidebar">
 	<?php if ( is_active_sidebar( 'sidebar-primary' ) )
 	{ dynamic_sidebar( 'sidebar-primary' );	}
 	else  { 
@@ -9,4 +9,4 @@
 	'after_title'   => '</h2></div>' );
 	the_widget('WP_Widget_Archives', null, $args);
 	} ?>
-</div>
+</div> -->

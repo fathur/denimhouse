@@ -12,10 +12,12 @@ module.exports = function(grunt) {
 		sass: {
 			dist: {
 				options: {
-					style: 'compressed'
+					style: 'expanded'
 				},
 				src: 'mockup/sass/*.scss',
-				dest: 'mockup/css/denimhouse.css'
+				//dest: 'mockup/css/denimhouse.css'
+				dest: 'wp-content/themes/enigma/css/denimhouse.css'
+				
 			}
 		},
 
@@ -71,8 +73,8 @@ module.exports = function(grunt) {
 
 	grunt.registerTask('default', [
 		'sass',
-		'express',
-		'open',
+		//'express',
+		//'open',
 		'watch',
 	]);
 	

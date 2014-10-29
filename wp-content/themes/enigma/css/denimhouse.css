@@ -8,6 +8,7 @@ body {
 
 .dh-container {
   min-height: 460px;
+  padding-bottom: 20px;
 }
 
 .logo {
