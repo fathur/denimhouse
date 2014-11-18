@@ -49,6 +49,17 @@
 						<li><a href="<?php echo esc_url( get_permalink( get_page_by_title( 'About Us' ) ) ); ?>">About Us</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
+
+						<?php if (is_user_logged_in()) :?>
+
+						<li>
+							<a href="<?php echo wp_logout_url( get_option('siteurl') ); ?>">Logout</a>
+						</li>
+						<li>
+							<a href="<?php echo get_option('siteurl') ?>/wp-admin">Admin</a>
+						</li>
+						<?php else: ?>
+
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Login <span class="caret"></span></a>
 							<div class="dropdown-menu login-navbar">
@@ -57,7 +68,7 @@
 
 										<?php wp_login_form( array(
 											'echo'				=> true,
-											'redirect'			=> site_url( $_SERVER['REQUEST_URI'] ), 
+											'redirect'			=> site_url( '/login/ ' ), 
 											'form_id'        => 'loginform',
 											'label_username' => __( 'Username' ),
 											'label_password' => __( 'Password' ),
@@ -71,10 +82,18 @@
 											'value_username' => NULL,
 											'value_remember' => false
 										) ); ?> 
+
 									</div>
 								</div>
 							</div>
 						</li>
+						<li>
+							<a href="<?php echo get_option('siteurl') ?>/register">Register</a>
+							
+							
+						</li>
+
+						<?php endif; ?>
 					</ul>
 				</div><!--/.navbar-collapse -->
 			</div>
