@@ -11,3 +11,9 @@ DenimHouse
 6. Import file dalam folder wp-db ke database danimhouse yang baru saja dibuat
 7. Kemudian akses di browser dengan url http://localhost/denimhouse/.
 8. Login dengan username: *admin* dan password: *123456*
+
+# Cara memasang Carousel
+
+1. Masuk ke direktori __/denimhouse/wp-content/themes/enigma/images/__
+2. Ganti file __carousel-1.jpg__, __carousel-2.jpg__, __carousel-3.jpg__ dengan file yang diingingakan
+3. Pastikan ukuran ketiga file tersebut sama agar tampilannya cantik
