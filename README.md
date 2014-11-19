@@ -8,7 +8,7 @@ DenimHouse
 3. Lihat folder wp-db, didalam folder tersebut terdapat database yang harus diimport
 4. Buka browser, kemudian masuk ke http://localhost/phpmyadmin
 5. Buat database baru bernama *denimhouse*
-6. Import file dalam folder wp-db ke database danimhouse yang baru saja dibuat
+6. Ekstrak kemudian import file dalam folder wp-db ke database danimhouse yang baru saja dibuat
 7. Kemudian akses di browser dengan url http://localhost/denimhouse/.
 8. Login dengan username: *admin* dan password: *123456*
 
