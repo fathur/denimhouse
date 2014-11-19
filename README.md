@@ -15,5 +15,5 @@ DenimHouse
 # Cara memasang Carousel
 
 1. Masuk ke direktori __/denimhouse/wp-content/themes/enigma/images/__
-2. Ganti file __carousel-1.jpg__, __carousel-2.jpg__, __carousel-3.jpg__ dengan file yang diingingakan
+2. Ganti file __carousel-1.jpg__, __carousel-2.jpg__, __carousel-3.jpg__ dengan file yang diingingakan tetapi dengan nama yang sama persis
 3. Pastikan ukuran ketiga file tersebut sama agar tampilannya cantik
