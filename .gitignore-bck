@@ -1,3 +1,5 @@
+/wp-config.php
+/wp-content/uploads/*
 /wc-logs/*
 .DS_Store
 /node_modules/*
