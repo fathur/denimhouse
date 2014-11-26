@@ -56,7 +56,7 @@
 							<a href="<?php echo wp_logout_url( get_option('siteurl') ); ?>">Logout</a>
 						</li>
 						<li>
-							<a href="<?php echo get_option('siteurl') ?>/wp-admin">Admin</a>
+							<a href="<?php echo get_option('siteurl') ?>/my-account">My Account</a>
 						</li>
 						<?php else: ?>
 
