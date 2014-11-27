@@ -44,7 +44,7 @@
 			<div class="container">
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="#home">Home</a></li>
+						<li><a href="<?php echo home_url( '/' ); ?>">Home</a></li>
 						<li><a href="<?php echo get_post_type_archive_link('product'); ?>">Products</a></li>
 						<li><a href="<?php echo esc_url( get_permalink( get_page_by_title( 'About Us' ) ) ); ?>">About Us</a></li>
 					</ul>
