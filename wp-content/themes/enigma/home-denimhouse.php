@@ -10,7 +10,7 @@
 
 	<div class="carousel-inner" role="listbox">
 		<div class="item active">
-			<img src="<?php echo get_template_directory_uri(); ?>/images/carousel-1.jpg" alt="First slide">
+			<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/carousel-1.jpg" alt="First slide">
 			<!-- <div class="container">
 				<div class="carousel-caption">
 					<h1>Example headline.</h1>
@@ -20,7 +20,7 @@
 			</div> -->
 		</div>
 		<div class="item">
-			<img src="<?php echo get_template_directory_uri(); ?>/images/carousel-2.jpg" alt="Second slide">
+			<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/carousel-2.jpg" alt="Second slide">
 			<!-- <div class="container">
 			<div class="carousel-caption">
 			<h1>Another example headline.</h1>
@@ -30,7 +30,7 @@
 			</div> -->
 		</div>
 		<div class="item">
-			<img src="<?php echo get_template_directory_uri(); ?>/images/carousel-3.jpg" alt="Third slide">
+			<img class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/images/carousel-3.jpg" alt="Third slide">
 			<!-- <div class="container">
 			<div class="carousel-caption">
 			<h1>One more for good measure.</h1>

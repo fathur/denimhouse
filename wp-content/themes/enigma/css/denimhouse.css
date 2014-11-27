@@ -105,3 +105,11 @@ ul#pie_register .fields .fieldset .legend.error {
 .carousel {
   margin-top: -20px;
 }
+
+.carousel-inner > .item {
+  height: 500px;
+}
+
+.carousel-inner > .item > img {
+  width: 100%;
+}
